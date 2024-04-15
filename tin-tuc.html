@@ -1,0 +1,464 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+	<!-- Meta Data -->
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Tin tức</title>
+
+	<!-- Fav Icon -->
+	<link rel="apple-touch-icon" sizes="180x180" href="assets/img/fav-icons/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="assets/img/fav-icons/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="assets/img/fav-icons/favicon-16x16.png">
+	<meta name="theme-color" content="#3d0e03">
+
+	<!-- Dependency Styles -->
+	<link rel="stylesheet" href="dependencies/bootstrap/css/bootstrap.min.css" type="text/css">
+	<link rel="stylesheet" href="dependencies/font-awesome/css/font-awesome.min.css" type="text/css">
+
+	<!-- Site Stylesheet -->
+	<link rel="stylesheet" href="dependencies/swiper/swiper.min.css" type="text/css">
+	<link rel="stylesheet" href="dependencies/wow/css/animate.css" type="text/css">
+	<link rel="stylesheet" href="dependencies/magnific-popup/magnific-popup.css" type="text/css">
+	<link rel="stylesheet" href="dependencies/jquery-animated-headlines/css/jquery.animatedheadline.css" type="text/css">
+	<link rel="stylesheet" href="assets/css/woocommerce.css" type="text/css">
+	<link rel="stylesheet" href="dependencies/jquery-ui/css/jquery-ui.css" type="text/css">
+	<link rel="stylesheet" href="dependencies/slick-carousel/css/slick.css" type="text/css">
+	<link rel="stylesheet" href="assets/css/app.css" type="text/css">
+
+	<!-- Google Web Fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300,300i,400,400i,700,700i" rel="stylesheet">
+
+
+</head>
+
+<body class="blog-grid-four" data-bg-image="media/blog/57.jpg" data-style="default">
+
+	<div id="loader-wrapper">
+		<div class="loader">
+			<div class="loader-inner"></div>
+			<div class="loader-inner"></div>
+			<div class="loader-inner"></div>
+			<div class="loader-inner"></div>
+		</div>
+	</div>
+
+	<a href="#main_content" data-type="section-switch" class="return-to-top back-top"><i class="fa fa-chevron-up"></i></a>
+
+	<div id="main_content">
+
+
+		<!--=========================-->
+		<!--=        Navbar         =-->
+		<!--=========================-->
+		<header class="header header-one">
+            <div class="top-menu">
+                <div class="container">
+                    <div class="top-menu-wrap">
+                        <div class="row">
+                            <div class="col-md-8">
+                                <div class="top-menu-left">
+                                    <ul class="head-social-link">
+                                        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                        <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                                        <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                                        <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+                                    </ul>
+                                    <!-- /.head-social-link -->
+                                </div>
+                                <!-- /.top-menu-left -->
+                            </div>
+                            <!-- /.col-md-6 -->
+                        </div>
+                        <!-- /.row -->
+                    </div>
+                    <!-- /.top-menu-wrap -->
+                </div>
+                <!-- /.container -->
+            </div>
+            <!-- /.top-menu -->
+
+            <div class="nav">
+                <div class="container">
+                    <div class="nav-wrap">
+                        <div id="site-logo">
+                            <a href="index.html">
+                                <img src="assets/img/logo mediabox.png" alt="Site Logo" width="200px;">
+                            </a>
+                        </div>
+                        <ul class="tim-nav text-right">
+                            <li class="menu-item">
+                                <a href="index.html">Trang Chủ</a>
+                            </li>
+
+                            <li class="tim-nav text-right">
+                                <a href="gioi-thieu.html">Giới thiệu</a>
+                            </li>
+
+                            <li class="tim-nav text-right">
+                                <a href="tin-tuc.html">Tin tức</a>
+                            </li>
+
+                            <li class="tim-nav text-right">
+                                <a href="san-pham.html">Sản phẩm</a>
+                            </li>
+
+                            <li class="tim-nav text-right">
+                                <a href="lien-he.html">Liên hệ</a>
+                            </li>
+                        </ul>
+                        <div class="top-search-form">
+                            <form action="#" class="search-form">
+                                <input type="text" name="search" placeholder="Search....">
+                                <button type="submit"><i class="fa fa-search"></i></button>
+                                <div class="sea-fire"><canvas width="402" height="40" class=" fireJqueryPlugin3Canvas0"></canvas></div>
+                            </form>
+                        </div>
+                    </div>
+                    <!-- /.nav-wrap -->
+                </div>
+                <!-- /.container -->
+            </div>
+            <!-- /.nav -->
+        </header>
+		<!-- /#header -->
+
+		<!--================================-->
+		<!--=        Mobile Navbar         =-->
+		<!--================================-->
+		<header id="mobile-nav-wrap">
+			<div class="mob-header-inner d-flex justify-content-between">
+				<div id="mobile-logo" class="d-flex justify-content-start">
+					<a href="#"><img src="assets/img/logo mediabox.png" alt="Site Logo"></a>
+				</div>
+
+				<ul class="user-link nav justify-content-end">
+					<li>
+						<a href="#" data-toggle="modal" data-target="#signInModal">
+					<i class="fa fa-user"></i>
+					Login
+				</a>
+					</li>
+					<li>
+						<a href="#" data-toggle="modal" data-target="#signUpModal">
+					<i class="fa fa-sign-in"></i>
+					Sign Up
+				</a>
+					</li>
+				</ul>
+
+				<div id="nav-toggle" class="nav-toggle hidden-md">
+					<div class="toggle-inner">
+						<span></span>
+						<span></span>
+						<span></span>
+						<span></span>
+					</div>
+				</div>
+			</div>
+			<!-- /.mob-header-inner -->
+		</header>
+		<!-- /#mobile-header -->
+
+		<div class="mobile-menu-inner">
+
+			<div class="close-menu">
+				<span class="bar"></span>
+				<span class="bar"></span>
+			</div>
+
+			<nav id="accordian">
+                <ul class="accordion-menu">
+                    <li>
+                        <a href="index.html">Trang chủ</a>
+                    </li>
+                    <li>
+                        <a href="gioi-thieu.html">Giới thiệu</a>
+                    </li>
+                    <li>
+                        <a href="tin-tuc.html">Tin tức</a>
+                    </li>
+                    <li>
+                        <a href="san-pham.html">Sản phẩm</a>
+                    </li>
+                    <li>
+                        <a href="lien-he.html">Liên hệ</a>
+                    </li>
+                </ul>
+            </nav>
+
+			<form action="#" id="moble-search">
+				<input type="text" placeholder="Search....">
+				<button type="submit"><i class="fa fa-search"></i></button>
+			</form>
+			<!-- /#moble-search -->
+
+			<ul class="footer-social-link">
+				<li class="fb-bg"><a href="#"><i class="fa fa-facebook"></i></a></li>
+				<li class="in-bg"><a href="#"><i class="fa fa-instagram"></i></a></li>
+				<li class="tw-bg"><a href="#"><i class="fa fa-twitter"></i></a></li>
+				<li class="gp-bg"><a href="#"><i class="fa fa-google-plus"></i></a></li>
+			</ul>
+		</div>
+		<!-- /.mobile-menu-inner -->
+
+
+
+		<!--=========================-->
+		<!--=        Banner         =-->
+		<!--=========================-->
+		<section id="page-header" data-bg-image="media/background/12.jpg">
+			<div class="container">
+				<div class="page-title-wrap">
+					<div class="page-title-inner">
+						<h1>Tin tức</h1>
+						<span class="delemitter" data-bg-image="media/banner/s1.png"></span>
+					</div>
+					<!-- /.page-title-inner -->
+				</div>
+				<!-- /.page-title-wrap -->
+			</div>
+			<!-- /.container -->
+		</section>
+		<!-- /#page-header -->
+
+		<!--========================================-->
+		<!--=        Blog Grid Four Column         =-->
+		<!--========================================-->
+		<section class="blog-grid pt__50 pb__50">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-4 col-md-6">
+						<div class="blog-post-grid">
+							<div class="featire-image">
+								<a href="#"><img src="assets/img/tintuc-1.jpg" alt="Blog Thumb"></a>
+
+							</div>
+
+							<div class="post-type-icon"><i class="fa fa-picture-o"></i></div>
+
+							<div class="blog-content">
+								<ul class="blog-meta">
+									<li><i class="fa fa-user"></i><a href="#" class="admin">Admin</a></li>
+									<li><i class="fa fa-tags"></i> <a href="#">Trò chơi,</a> <a href="#">Studio</a></li>
+									<li><i class="fa fa-calendar"></i><a href="#">01/04/2024</a></li>
+								</ul>
+								<h3 class="blog-title"><a href="#">𝗩𝗚𝗗𝗔 𝗙𝗼𝗼𝘁𝗯𝗮𝗹𝗹 𝗟𝗲𝗮𝗴𝘂𝗲 𝟮𝟬𝟮𝟯 </a></h3>
+								<a href="#" class="tim-btn">Xem thêm</a>
+							</div>
+							<!-- /.blog-content -->
+						</div>
+						<!-- /.blog-post-grid -->
+					</div>
+					<div class="col-lg-4 col-md-6">
+						<div class="blog-post-grid">
+							<div class="featire-image">
+								<a href="#"><img src="assets/img/tintuc-2.jpg" alt="Blog Thumb"></a>
+
+							</div>
+
+							<div class="post-type-icon"><i class="fa fa-picture-o"></i></div>
+
+							<div class="blog-content">
+								<ul class="blog-meta">
+									<li><i class="fa fa-user"></i><a href="#" class="admin">Admin</a></li>
+									<li><i class="fa fa-tags"></i> <a href="#">Trò chơi,</a> <a href="#">Studio</a></li>
+									<li><i class="fa fa-calendar"></i><a href="#">01/04/2024</a></li>
+								</ul>
+								<h3 class="blog-title"><a href="#">MEDIA BOX ĐI MUÔN NƠI  </a></h3>
+								<a href="#" class="tim-btn">Xem thêm</a>
+							</div>
+							<!-- /.blog-content -->
+						</div>
+						<!-- /.blog-post-grid -->
+					</div>
+				</div>
+				<!-- /.row -->
+				<nav class="navigation pagination">
+					<ul class="nav-links">
+						<li><a href="#"><i class="fa fa-angle-left"></i></a></li>
+						<li><a href="#">1</a></li>
+						<li><a href="#" class="active">2</a></li>
+						<li><a href="#">3</a></li>
+						<li><a href="#">4</a></li>
+						<li><a href="#">...</a></li>
+						<li><a href="#"><i class="fa fa-angle-right"></i></a></li>
+					</ul>
+				</nav>
+				<div class="clearfix"></div>
+			</div>
+			<!-- /.container -->
+		</section>
+		<!-- /.blog-grid -->
+
+		<!--=================================-->
+		<!--=        Logo Carousel          =-->
+		<!--=================================-->
+		<section id="logo-carousel-two">
+			<div class="container">
+				<div class="swiper-container tim-logo-carousel" data-swiper-config='{"loop": true, "speed": 700, "spaceBetween": 50, "autoplay": 3000, "pagination":"#brand-swiper-pagination", "slidesPerView": 6, "grabCursor": true, "paginationClickable": true, "breakpoints": { "768": { "slidesPerView": 3 }, "500": { "slidesPerView": 2 }}}'>
+					<div class="swiper-wrapper">
+						<div class="swiper-slide">
+							<div class="brand-logo">
+								<img src="media/logo/1.png" alt="Brand Logo">
+							</div>
+						</div>
+
+						<div class="swiper-slide">
+							<div class="brand-logo">
+								<img src="media/logo/2.png" alt="Brand Logo">
+							</div>
+						</div>
+
+						<div class="swiper-slide">
+							<div class="brand-logo">
+								<img src="media/logo/3.png" alt="Brand Logo">
+							</div>
+						</div>
+
+						<div class="swiper-slide">
+							<div class="brand-logo">
+								<img src="media/logo/4.png" alt="Brand Logo">
+							</div>
+						</div>
+						<div class="swiper-slide">
+							<div class="brand-logo">
+								<img src="media/logo/5.png" alt="Brand Logo">
+							</div>
+						</div>
+
+						<div class="swiper-slide">
+							<div class="brand-logo">
+								<img src="media/logo/6.png" alt="Brand Logo">
+							</div>
+						</div>
+
+						<div class="swiper-slide">
+							<div class="brand-logo">
+								<img src="media/logo/3.png" alt="Brand Logo">
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- /.container -->
+		</section>
+		<!-- /#logo-carousel -->
+
+		<!--============================-->
+		<!--=        Footer One        =-->
+		<!--============================-->
+		<footer id="footer-three">
+			<div class="container">
+				<div class="footer-inner">
+					<div class="row">
+						<div class="col-lg-3 col-md-6 col-sm-6">
+							<div class="footer-about">
+								<h3 class="footer-title">Giới thiệu</h3>
+								<div class="content">
+									<p>
+										Media Box là một công ty hàng đầu trong lĩnh vực sản xuất và phát hành game MMORPG trực tuyến. Với sự tập trung chuyên sâu vào việc phát triển các trò chơi trực tuyến đa người chơi, công ty đã tạo dựng được danh tiếng mạnh mẽ trong ngành công nghiệp game.
+									</p>
+								</div>
+
+								<ul class="footer-social-link">
+									<li class="fb-bg"><a href="#"><i class="fa fa-facebook"></i></a></li>
+									<li class="in-bg"><a href="#"><i class="fa fa-instagram"></i></a></li>
+									<li class="tw-bg"><a href="#"><i class="fa fa-twitter"></i></a></li>
+									<li class="gp-bg"><a href="#"><i class="fa fa-google-plus"></i></a></li>
+								</ul>
+							</div>
+						</div>
+						<!-- /.col-lg-3 col-md-6 col-sm-6 -->
+
+						<div class="col-lg-3 col-md-6 col-sm-6">
+							<div class="footer-menu-inner">
+								<h3 class="footer-title">Menu</h3>
+
+								<ul class="footer-menu-list">
+									<li><a href="index.html">Trang chủ</a></li>
+									<li><a href="gioi-thieu.html">Giới thiệu</a></li>
+									<li><a href="tin-tuc.html">Tin tức</a></li>
+									<li><a href="san-pham.html">Sản phẩm</a></li>
+									<li><a href="lien-he.html">Liên hệ</a></li>
+								</ul>
+							</div>
+						</div>
+						<!-- /.col-lg-3 col-md-6 col-sm-6 -->
+
+						<div class="col-lg-3 col-md-6 col-sm-6">
+							<div class="footer-menu-inner">
+								<h3 class="footer-title">Nền tảng</h3>
+
+								<ul class="footer-menu-list">
+									<li><a href="#">Windows Game</a></li>
+									<li><a href="#">Android Game</a></li>
+									<li><a href="#">XBOX Game</a></li>
+									<li><a href="#">Java Game</a></li>
+									<li><a href="#">Game Featured</a></li>
+								</ul>
+							</div>
+						</div>
+						<!-- /.col-lg-3 col-md-6 col-sm-6 -->
+
+						<div class="col-lg-3 col-md-6 col-sm-6">
+							<div class="footer-newsletter-inner">
+								<h3 class="footer-title">Đăng ký nhận tin</h3>
+								<p>Vui lòng điền tên và email. </p>
+								<form action="#" class="footer-newsletter">
+									<input type="text" name="name" placeholder="Name">
+									<input type="text" name="email" placeholder="Email">
+									<button type="submit" class="tim-btn-bg brn">Nhận tin</button>
+								</form>
+								<!-- /.footer-newsletter -->
+							</div>
+							<!-- /.footer-newsletter-inner -->
+						</div>
+						<!-- /.col-lg-3 col-md-6 col-sm-6 -->
+					</div>
+					<!-- /.row -->
+
+					<div class="copy-right">
+						<p>Copyright 2024 <a href="#" target="_blank">MEDIA BOX</a> All Rights Reserved</p>
+					</div>
+				</div>
+				<!-- /.footer-inner -->
+			</div>
+			<!-- /.container -->
+			<!-- <div class="fire-bg-wrap">
+		<div class="footer-fire"></div>
+	</div> -->
+			<!-- /.fire-bg-wrap -->
+		</footer>
+		<!-- /#footer-three -->
+
+
+
+	</div>
+	<!-- /#site -->
+
+	<!-- Dependency Scripts -->
+	<script src="dependencies/popper.js/popper.min.js"></script>
+	<script src="dependencies/jquery/jquery.min.js"></script>
+	<script src="dependencies/bootstrap/js/bootstrap.min.js"></script>
+	<script src="dependencies/swiper/js/swiper.min.js"></script>
+	<script src="dependencies/swiperRunner/swiperRunner.min.js"></script>
+	<script src="dependencies/slick-carousel/js/slick.min.js"></script>
+	<script src="dependencies/magnific-popup/js/jquery.magnific-popup.min.js"></script>
+	<script src="dependencies/jquery-ui/jquery-ui.min.js"></script>
+	<script src="dependencies/jquery-animated-headlines/js/jquery.animatedheadline.min.js"></script>
+	<script src="dependencies/jquery.countdown/jquery.countdown.min.js"></script>
+	<script src="dependencies/countUp.js/js/countUp.min.js"></script>
+	<script src="dependencies/jquery.appear.bas2k/jquery.appear.js"></script>
+	<script src="dependencies/jquery.ripples/jquery.ripples.js"></script>
+	<script src="dependencies/wow/js/wow.min.js"></script>
+
+	<!-- Site Scripts -->
+	<script src="assets/js/app.js"></script>
+
+</body>
+</html>
